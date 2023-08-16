@@ -1,0 +1,21 @@
+{
+    "name": "wpp-downloader",
+    "version": "0.0.2",
+    "description": "Chrome extension to download contacts from WhatsApp Web.",
+    "main": "index.js",
+    "author": "Adrian Cerbaro <adriancerbaro@gmail.com>",
+    "scripts": {
+        "dev": "grunt",
+        "build": "grunt build"
+    },
+    "license": "MIT",
+    "private": false,
+    "devDependencies": {
+        "grunt": "~0.4.5",
+        "grunt-contrib-jshint": "~0.10.0",
+        "grunt-contrib-nodeunit": "~0.4.1",
+        "grunt-contrib-sass": "^1.0.0",
+        "grunt-contrib-uglify-es": "gruntjs/grunt-contrib-uglify#harmony",
+        "grunt-contrib-watch": "^1.1.0"
+    }
+}
